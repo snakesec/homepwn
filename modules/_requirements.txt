@@ -11,7 +11,7 @@ scapy==2.4.3
 access_points
 python-nmap
 pycairo
-PyGObject
+PyGObject==3.50.0
 dbus-python
 gobject
 pycups
