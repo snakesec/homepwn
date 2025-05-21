@@ -53,6 +53,7 @@ source /opt/ANDRAX/homepwn/bin/activate
 
 /opt/ANDRAX/homepwn/bin/pip3 install wheel
 /opt/ANDRAX/homepwn/bin/pip3 install setuptools==41.6.0
+/opt/ANDRAX/homepwn/bin/pip3 install prompt_toolkit==2.0.10
 
 cd pybluez
 
