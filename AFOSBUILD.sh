@@ -51,8 +51,8 @@ python3 -m venv /opt/ANDRAX/homepwn
 
 source /opt/ANDRAX/homepwn/bin/activate
 
-/opt/ANDRAX/homepwn/bin/bin/pip3 install setuptools==41.6.0
-/opt/ANDRAX/homepwn/bin/bin/pip3 install -r modules/_requirements.txt
+/opt/ANDRAX/homepwn/bin/pip3 install setuptools==41.6.0
+/opt/ANDRAX/homepwn/bin/pip3 install -r modules/_requirements.txt
 
 if [ $? -eq 0 ]
 then
