@@ -51,6 +51,7 @@ python3 -m venv /opt/ANDRAX/homepwn
 
 source /opt/ANDRAX/homepwn/bin/activate
 
+/opt/ANDRAX/homepwn/bin/pip3 install wheel
 /opt/ANDRAX/homepwn/bin/pip3 install setuptools==41.6.0
 
 cd pybluez
