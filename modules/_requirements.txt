@@ -5,7 +5,6 @@ protobuf>=3.0.0
 zeroconf>=0.21.0
 casttube>=0.2.0
 pychromecast
-pybluez
 bluepy 
 scapy==2.4.3
 access_points

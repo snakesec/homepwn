@@ -52,6 +52,22 @@ python3 -m venv /opt/ANDRAX/homepwn
 source /opt/ANDRAX/homepwn/bin/activate
 
 /opt/ANDRAX/homepwn/bin/pip3 install setuptools==41.6.0
+
+cd pybluez
+
+/opt/ANDRAX/homepwn/bin/pip3 install .
+
+if [ $? -eq 0 ]
+then
+  # Result is OK! Just continue...
+  echo "Install local PYBLUEZ... PASS!"
+else
+  # houston we have a problem
+  exit 1
+fi
+
+cd ..
+
 /opt/ANDRAX/homepwn/bin/pip3 install -r modules/_requirements.txt
 
 if [ $? -eq 0 ]
@@ -62,6 +78,8 @@ else
   # houston we have a problem
   exit 1
 fi
+
+rm -rf pybluez
 
 cp -Rf $(pwd) /opt/ANDRAX/homepwn/package
 
