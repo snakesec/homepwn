@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source /opt/ANDRAX/homepwn/bin/activate
+
+cd /opt/ANDRAX/homepwn/package
+
+/opt/ANDRAX/homepwn/bin/python3 homePwn.py "$@"
